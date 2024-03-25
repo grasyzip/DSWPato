@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>21-02 | DSW - Atividade</title>
+		<link rel="icon" href="iconepato.png">
+	<style>
+
+		.content {max-width: 500px
+					margin: auto;
+					text-align: center;}
+					
+		.center {display: block;
+					margin-left:auto;
+					margin-right: auto;
+					width: 50%;}
+					
+		.button {background-color: #ffcc66;
+					border: 2px;
+					border-radius: 20px;
+					cursor: pointer;
+					padding: 10px 20px}
+					
+		.display {display: flex;
+					margin-right: 10px}
+					
+		.centerbutton {justify-content: space-between;}
+	
+		.margins {margin-left: 50px;}
+		
+		.grad {background-image: linear-gradient(white, #ffdd99);}
+		
+	</style>
+
+	</head>
+	
+	<div class="content">
+	<body class="grad">
+	
+		
+	
+		<h2 style="border: 5px solid #ffcc66; font-family:georgia">Sentimento do dia com patos.</h2>
+		
+		<p style="font-family:verdana">Como você está se sentindo hoje?</p>
+		<p style="font-family:verdana" id="demo">Estou me sentindo..</p>
+		
+			<p></p>
+		
+			<div class="display centerbutton">
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="patoraiva.jpg"'>Raiva</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="patotimido.jpg"'>Timidez</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="patosuave.jpeg"'>Suave</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="patotriste.jpg"'>Chorando</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="chocade.webp"'>Chocado</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="soninho.jpg"'>Com sono</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").src="fomezinha.jpg"'>Com fome</button>
+			</div>
+			
+			<p></p>
+		
+		<img class="center" id="myimage" src="mandandoaquele.gif" style="width: 100px">
+
+				<button class="button" type="button" onclick='document.getElementById("myimage").style.display="none"'>Esconder</button>
+				<button class="button" type="button" onclick='document.getElementById("myimage").style.display="block"'>Aparecer</button>
+
+			<p></p>
+
+	</div>
+	</body>
+</html>
